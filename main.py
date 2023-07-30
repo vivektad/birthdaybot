@@ -66,6 +66,6 @@ if __name__ == "__main__":
     application.job_queue.run_daily(send_birthdays, time=datetime.strptime('7:10', '%H:%M').time())
 
     #Start Bot
-    application.run_polling(60)
+    application.run_polling(5)
     
 
